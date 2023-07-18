@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+  <link rel="stylesheet" href="./css/style.css">
+      <script>
+        function toggleTheme() {
+            // let theme = document.getElementsByTagName('link')[0];
+            let dark = document.getElementById('dark')
+            // if (theme.getAttribute('href') === 'light.css') {
+            if (dark == null) {
+                // theme.setAttribute('href', 'dark.css');
+                let dark_css = document.createElement('link');
+                dark_css.type = 'text/css';
+                dark_css.rel = 'stylesheet';
+                dark_css.href = './css/dark.css';
+                dark_css.id = 'dark';
+                document.head.appendChild(dark_css)
+                console.log('added')
+            } else {
+                // theme.setAttribute('href', 'light.css');
+                dark.remove();
+            }
+        }
+    </script>
+</head>
+<body>
+  <h1>Проверка GH-pages</h1>
+  <button onclick="toggleTheme()">Switch</button>
+</body>
+</html>
