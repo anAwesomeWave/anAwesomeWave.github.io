@@ -12,11 +12,6 @@ body {
 h1 {
     font-size: 3vw;
 }
-header > #form {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -68,9 +63,6 @@ img {
     max-height: 10vw;
     height: auto;
 }
-#res{
-    font-style: italic;
-}
 
 main {
     display: flex;
@@ -97,6 +89,7 @@ main {
 #second {
     background-color: #364A62;
     padding: 0.5vw;
+    color: #D7E1E0;
 
 }
 #skills > h2 {
