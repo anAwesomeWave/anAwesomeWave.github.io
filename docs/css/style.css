@@ -151,7 +151,7 @@ img {
         font-size: 3vw;
     }
     h2 {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     #job-title {
         font-size: 1.5vw;
@@ -162,7 +162,7 @@ img {
     }
 
     li, p, footer h2  {
-        font-size: 1.75vw;
+        font-size: 2vw;
     }
 
 }
@@ -190,7 +190,7 @@ footer {
 footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 footer li, footer p{
     list-style-type: none;
