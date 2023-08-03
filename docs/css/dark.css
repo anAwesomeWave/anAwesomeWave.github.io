@@ -1,3 +1,25 @@
 body {
-    background-color: #364A62;
+    /*background-color: #364A62;*/
+background: rgb(39,37,71);
+background: linear-gradient(90deg, rgba(39,37,71,1) 59%, rgba(1,29,34,1) 100%);
+}
+
+#page-container {
+    background-color: #0f0f0f;
+}
+#second {
+    background-color: #0b0b0f;
+}
+
+h1, h2 {
+    color: #f0f0f0;
+    text-shadow: 0px 2px 16px rgba(240, 240, 240, 0.3);
+}
+
+p, li {
+    color: #e0e0e0;
+}
+
+#job-title {
+    color: #a38f85;
 }

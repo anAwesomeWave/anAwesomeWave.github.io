@@ -3,10 +3,11 @@ html {
     min-width: 100%;
 }
 body {
-    background-color: white;
+    background: rgb(247,206,224);
+    background: radial-gradient(circle, rgba(247,206,224,1) 0%, rgba(205,224,247,1) 100%);
     /*background-color: #a38f85;*/
     min-height: 100%;
-    color: #1B2237;
+    /*color: #1B2237;*/
     font-family: Times New Roman;
 }
 header {
@@ -33,7 +34,9 @@ button {
 
 #page-container {
     /*background-color: #ede9e3;*/
-    background-color: #EFF9F8;
+    background-color: #fafafa;
+    /*background-color: white;*/
+    border-radius: 3%;
     margin: auto;
     width: 100%;
     padding: 10px;
@@ -107,7 +110,7 @@ li, p, footer h2  {
 }
 #job-title {
     font-size: 6vw;
-    color: #a38f85;
+    color: #0f0f0f;
 }
 
 img {
@@ -127,7 +130,6 @@ img {
     /*}*/
     #job-title {
         font-size: 4vw;
-        color: #a38f85;
     }
     img {
         max-height: 20vw;
@@ -155,7 +157,6 @@ img {
     }
     #job-title {
         font-size: 1.5vw;
-        color: #a38f85;
     }
     img {
         max-height: 10vw;
@@ -168,9 +169,10 @@ img {
 }
 
 #second {
-    background-color: #364A62;
+    border-radius: 5%;
+    background-color: #f6f6f6;
     padding: 0.5vw;
-    color: #D7E1E0;
+    /*color: #364A62;*/
 
 }
 #skills > h2 {
