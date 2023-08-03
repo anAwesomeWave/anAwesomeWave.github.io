@@ -69,14 +69,15 @@ input:checked + #dmb svg.moon {
 }
 @media only screen and (min-width: 341px) {
 	#dmb {
+		width: 18vw;
 		margin-bottom: 0;
 	}
 	#dmb:after {
-		width:8vw;
-		height: 8vw;
+		width:6.5vw;
+		height: 6.5vw;
 	}
 	#dmb svg {
-		width: 7vw;
+		width: 5.9vw;
 	}
 }
 @media only screen and (min-width: 400px) {
