@@ -1,6 +1,6 @@
 #dmb {
-	width:16vw;
-	height: 7vh;
+	width:28vw;
+	height: 8vh;
 	position: relative;
 	display: block;
 	background: #ebebeb;
@@ -12,11 +12,10 @@
 }
 #dmb:after {
 	content: "";
-	/*top: 0.5vh;*/
-	left: 3.5%;
-	top: 6%;
+	left: 3.4%;
+	top: 8%;
 	width:33%;
-	height: 90%;
+	height: 80%;
 	position: absolute;
 	/*top:10px;*/
 	/*left:10px;*/
@@ -36,7 +35,7 @@ input:checked + #dmb {
 background: linear-gradient(0deg, rgba(27,41,41,0.7091211484593838) 0%, rgba(39,37,71,0.700717787114846) 99%);
 }
 input:checked + #dmb:after {
-	left:94.5%;
+	left:97.5%;
 	transform: translateX(-100%);
 	background: linear-gradient(180deg,#777,#3a3a3a);
 }
@@ -81,6 +80,74 @@ input:checked + #dmb svg.moon {
 	/*}*/
 }
 
+@media only screen and (min-width: 500px) {
+	#dmb {
+		width:23vw;
+		height: 7vh;
+	}
+	#dmb:after {
+		left: 3.6%;
+		width: 32%;
+		height: 82%;
+	}
+	input:checked + #dmb:after {
+		left: 96.5%;
+	}
+}
+@media only screen and (min-width: 540px) {
+	#dmb {
+		width:22vw;
+		height: 8vh;
+	}
+	#dmb:after {
+		left: 3.5%;
+		top: 7.6%;
+		height: 80%;
+	}
+}
+@media only screen and (min-width: 600px) {
+	#dmb {
+		width:22vw;
+		height: 8vh;
+	}
+	#dmb:after {
+		left: 3.5%;
+		top: 7.6%;
+		height: 80%;
+	}
+}
+@media only screen and (min-width: 660px) {
+	#dmb {
+		width: 16vw;
+		height: 6.2vh;
+	}
+	#dmb:after {
+		top: 8.2%;
+		height: 85%;
+	}
+}
+@media only screen and (min-width: 720px) {
+	#dmb {
+		height: 7vh;
+	}
+	#dmb:after {
+		width: 33%;
+		height: 80%;
+	}
+}
+@media only screen and (min-width: 780px) {
+	#dmb {
+		width: 16vw;
+		height: 7vh;
+	}
+	#dmb:after {
+		width: 33%;
+		height: 90%;
+	}
+	input:checked + #dmb:after {
+		left: 94.5%;
+	}
+}
 @media only screen and (min-width: 885px) {
 	#dmb:after {
 		content: "";
@@ -137,4 +204,9 @@ input:checked + #dmb svg.moon {
 		width:6vw;
 		height: 4.5vh;
 	}
+	/*#dmb:after {*/
+	/*	top:9%;*/
+	/*	height: 78%;*/
+	/*	width: 38%;*/
+	/*}*/
 }
