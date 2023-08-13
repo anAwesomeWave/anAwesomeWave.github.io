@@ -37,7 +37,6 @@ button {
     background-color: #fafafa;
     /*background-color: white;*/
     /*background: -webkit-linear-gradient(top, #d4d4d4 0%, #ffffff 100%);*/
-    border-radius: 3%;
     margin: auto;
     width: 100%;
     padding: 10px;
@@ -138,6 +137,9 @@ img {
 }
 
 @media only screen and (min-width: 1100px) {
+    #page-container {
+        border-radius: 3%;
+    }
     #second {
         flex: 2;
     }
