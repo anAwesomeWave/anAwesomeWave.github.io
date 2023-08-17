@@ -135,6 +135,11 @@ footer ul {
     flex-direction: row;
     /*justify-content: space-evenly;*/
 }
+
+#ul-btm {
+    flex-direction: column;
+}
+
 footer li, footer p{
     list-style-type: none;
     font-size: 1.25vw;

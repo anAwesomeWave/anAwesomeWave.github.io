@@ -3,54 +3,65 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Зубов Тимофей - The backend Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <div id="page-container">
-        <main>
-          <div id="first" class="column">
+      <main>
+        <div id="first" class="column">
+          <div class="cont">
             <img src="img.png" alt="my-photo">
-            <div id="skills">
-              <h2>Skills</h2>
-              <ul>
-                <li>Python</li>
-                <li>Django</li>
-                <li>Linux</li>
-                <li>Git</li>
-                <li>Sql(SQLite, Postgres)</li>
-                <li>Javascript(Native, React)</li>
-              </ul>
+            <div id="name_and_job">
+              <h1>Зубов Тимофей</h1>
+              <i id="job-title" >Back-end developer</i>
             </div>
           </div>
-          <div id="second" class="column">
-            <div id="name">
-              <h1>ZUBOV TIM</h1>
-              <i> back-end developer</i>
-            </div>
-            <hr>
-            <div id="summ">
-              <h1 style="font-style: italic">Summary</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
+          <br>
+          <div id="summ">
+            <h1 style="font-style: italic">О себе</h1>
+            <p>
+              Студент МИЭМ ВШЭ по специальности 'Информационная безопасность'.
+              Я также занимаюсь в Яндекс Практикуме на направлении "Python Developer +".
+              В свободное время я люблю решать разные алгоритмические
+              задачи на codeforces или leetcode или взламывать машины на HackTheBox.
+            </p>
+            </p>
           </div>
-        </main>
-        <hr>
-        <footer>
-          <h2>Links</h2>
-          <div>
+        </div>
+        <div id="second" class="column">
+          <div id="skills">
+            <h2>Навыки</h2>
             <ul>
-              <li><a href="https://github.com/anAwesomeWave">GitHub</a></li>
-              <li><a href="https://codeforces.com/profile/_Mr.Black_">CodeForces</a></li>
-              <li><a href="https://www.linkedin.com/in/timofey-zubov-2a556524a/">LinkeIn</a></li>
+              <li>Python(Django, Flask, BeautifulSoup, Selenium)</li>
+              <li>Pytest, Unittest</li>
+              <li>Linux</li>
+              <li>Git</li>
+              <li>Sql(SQLite, Postgres)</li>
+              <li>Javascript(Native, React)</li>
+              <li>Решал алгоритмические задачи(и не только) на C++ и C </li>
             </ul>
-            <h2>Write me!</h2>
-            <p>timofey.zubov.05@gmail.com</p>
           </div>
-        </footer>
-    </div>
+        </div>
+      </main>
+      <hr>
+      <footer>
+        <h2>Полезные ссылки</h2>
+        <div>
+          <ul>
+            <li><a href="https://github.com/anAwesomeWave">GitHub</a></li>
+            <li><a href="https://codeforces.com/profile/_Mr.Black_">CodeForces</a></li>
+            <li><a href="https://www.linkedin.com/in/timofey-zubov-2a556524a/">LinkeIn</a></li>
+          </ul>
+          <h2>Мои контакты</h2>
+          <ul id="ul-btm">
+            <li><a href="mailto:timofey.zubov.05@gmail.com">timofey.zubov.05@gmail.com</a></li>
+            <li><a href="https://t.me/anawesomewave">@anawesomewave</a></li>
+          </ul>
+        </div>
+      </footer>
   </body>
 </html>

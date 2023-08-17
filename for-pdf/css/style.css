@@ -3,8 +3,8 @@ html {
     min-width: 100%;
 }
 body {
-    background: rgb(247,206,224);
-    background: radial-gradient(circle, rgba(247,206,224,1) 0%, rgba(205,224,247,1) 100%);
+    background-color: #fafafa;
+
     /*background-color: #a38f85;*/
     min-height: 100%;
     /*color: #1B2237;*/
@@ -21,11 +21,8 @@ header > * {
     margin-right: 5%;
 }
 
-#form {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+img, #name{
+    margin-left: 15%;
 }
 button {
     background: transparent;
@@ -36,7 +33,7 @@ button {
     /*background-color: #ede9e3;*/
     background-color: #fafafa;
     /*background-color: white;*/
-    /*background: -webkit-linear-gradient(top, #d4d4d4 0%, #ffffff 100%);*/
+    border-radius: 3%;
     margin: auto;
     width: 100%;
     padding: 10px;
@@ -54,15 +51,6 @@ button {
     /*height: 100%;*/
 }
 
-#circle {
-    width: 20%;
-    height: 100%;
-    border-radius: 100%;
-    background-color: black;
-    position: relative;
-    /*animation-name: dark-mode;*/
-    /*animation-duration: 1s;*/
-}
 
 /*@keyframes dark-mode {*/
 /*    0% {*/
@@ -94,81 +82,38 @@ main {
 }
 
 a {
- font-size: 5vw;
+ font-size: 2vw;
 
 }
 
 h1 {
-    font-size: 10vw;
+    font-size: 6vw;
 }
 h2 {
-    font-size: 6vw;
+    font-size: 3vw;
 }
 
 li, p, footer h2  {
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
 #job-title {
-    font-size: 6vw;
+    font-size: 2vw;
     color: #0f0f0f;
 }
 
 img {
     border-radius: 10%;
-    max-height: 30vw;
+    max-height: 25vw;
     height: auto;
     left:0;
+    margin: 3%;
+    margin-left: 10%;
+    margin-right: 8%;
 }
 
-@media only screen and (min-width: 391px) {
-    /*a {*/
-    /* font-size: 5vw;*/
-
-    /*}*/
-    /*h2 {*/
-    /*    font-size: 6vw;*/
-    /*}*/
-    #job-title {
-        font-size: 4vw;
-    }
-    /*img {*/
-    /*    max-height: 20vw;*/
-    /*}*/
-}
-
-@media only screen and (min-width: 1100px) {
-    #page-container {
-        border-radius: 3%;
-    }
-    #second {
-        flex: 2;
-    }
-    #first {
-        flex: 4;
-    }
-    #page-container {
-        width: 60%;
-    }
-    a {
-        font-size: 1.5vw;
-    }
-    h1 {
-        font-size: 3vw;
-    }
-    h2 {
-        font-size: 3vw;
-    }
-    #job-title {
-        font-size: 1.5vw;
-    }
-    img {
-        max-height: 10vw;
-    }
-
-    li, p, footer h2  {
-        font-size: 2vw;
-    }
-
+#name_and_job {
+    margin: 3%;
+    margin-top: 8%;
 }
 
 #second {
@@ -182,9 +127,6 @@ img {
     text-align: center;
 }
 
-#skills > li {
-    font-size: 1.4vw;
-}
 #first {
     /*background-color: #364A62;*/
     padding: 0.5vw;
@@ -200,14 +142,19 @@ footer ul {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-#ul-btm {
+#ul-btm{
+    display: flex;
     flex-direction: column;
 }
 
+#ul-btm > li{
+    margin-right: 23%;
+}
 footer li, footer p{
     list-style-type: none;
     font-size: 1.25vw;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 
 hr {
