@@ -1,3 +1,7 @@
 venv
 .idea
 test*
+for-pdf/en-version-without-label.pdf
+for-pdf/russian-version-without-label.pdf
+for-pdf/test.pdf
+cv

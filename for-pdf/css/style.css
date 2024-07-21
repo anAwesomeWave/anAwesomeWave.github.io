@@ -69,6 +69,14 @@ button {
     margin-bottom: 0;
 }
 
+#experience {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.key-elem {
+    font-size: x-large;
+}
 
 main {
     display: flex;
